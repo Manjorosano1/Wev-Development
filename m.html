@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: sans-serif;
+            margin: 0;
+            padding: 10px;
+        }
+
+        .cards {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .card {
+            width: 250px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+            box-shadow: 0px 2px 5px black;
+            margin: 10px;
+            overflow: hidden;
+        }
+        
+        .content-body {
+            padding: 20px;
+        }
+
+        h2, p {
+            margin: 0;
+        }
+
+        .card-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .card-header h2 {
+            font-size: 18px;
+        }
+
+        .divider {
+            margin: 10px 0;
+            border: none;
+            border-top: 1px solid #ccc;
+        }
+
+        .price {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="cards">
+        <div class="card">
+            <div class="content-body">
+                <div class="card-header">
+                    <h2>Web developer</h2>
+                    <p style="color: green;">//</p>
+                </div>
+                <h2>Frontend development</h2>
+                <hr class="divider">
+                <small>Kurs narxi</small>
+                <h3 class="price">500 000 so`m</h3>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content-body">
+                <div class="card-header">
+                    <h2>Web developer</h2>
+                    <p style="color: green;">//</p>
+                </div>
+                <h2>Frontend development</h2>
+                <hr class="divider">
+                <small>Kurs narxi</small>
+                <h3 class="price">500 000 so`m</h3>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content-body">
+                <div class="card-header">
+                    <h2>Web developer</h2>
+                    <p style="color: green;">//</p>
+                </div>
+                <h2>Frontend development</h2>
+                <hr class="divider">
+                <small>Kurs narxi</small>
+                <h3 class="price">500 000 so`m</h3>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
